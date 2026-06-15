@@ -65,6 +65,21 @@ I design and build **test automation systems** that are production-ready from da
 
 ---
 
+### 🥒 [BDD API Test Suite](https://github.com/okurenes/api-bdd-test-suite)
+
+[![CI](https://github.com/okurenes/api-bdd-test-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/okurenes/api-bdd-test-suite/actions)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Behave](https://img.shields.io/badge/Behave-BDD-brightgreen)
+![Tests](https://img.shields.io/badge/scenarios-17-blue)
+
+> Business-readable API tests — written in Gherkin, executed by Behave, mocked end-to-end.
+
+- **3 feature files · 17 scenarios** covering users, posts, and todos with `@smoke` / `@regression` tags
+- Callback-based HTTP mocking with `responses` — dynamic query param filtering, no real HTTP calls
+- Allure reporting integration with Scenario Outline + Examples table patterns
+
+---
+
 ### 🛒 [E-Commerce Test Automation](https://github.com/okurenes/ecommerce-test-automation)
 
 [![CI](https://github.com/okurenes/ecommerce-test-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/okurenes/ecommerce-test-automation/actions)
@@ -92,6 +107,8 @@ I design and build **test automation systems** that are production-ready from da
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Behave](https://img.shields.io/badge/Behave-BDD-brightgreen?style=flat-square)
+![Allure](https://img.shields.io/badge/Allure-Reports-orange?style=flat-square)
 
 </div>
 
