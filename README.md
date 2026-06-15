@@ -1,73 +1,107 @@
-# Hi, I'm Enes Okur 👋
+<div align="center">
 
-**QA Engineer & Test Automation Specialist** based in Ankara, Turkey.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Enes+Okur+%F0%9F%91%8B;QA+Engineer+%26+Test+Automation+Dev;Building+systems+that+don't+break." alt="Typing SVG" />
 
-I build reliable, maintainable test automation frameworks and API-driven systems. My work focuses on turning manual, error-prone processes into scalable automation pipelines — with real validation, real CI/CD, and real coverage metrics.
+<p>
+  <a href="https://www.linkedin.com/in/enes-okur-133871136">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Ankara%2C%20Turkey-📌-lightgrey?style=for-the-badge" />
+</p>
+
+</div>
 
 ---
 
-## 🚀 Featured Projects
+I design and build **test automation systems** that are production-ready from day one — real CI/CD pipelines, real coverage metrics, real test design techniques. Not tutorials, not toy examples.
+
+---
+
+## 🚀 Projects
 
 ### 🏦 [Banking Payment System API](https://github.com/okurenes/banking-payment-system)
-![CI](https://github.com/okurenes/banking-payment-system/actions/workflows/ci.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green?logo=fastapi)
+
+[![CI](https://github.com/okurenes/banking-payment-system/actions/workflows/ci.yml/badge.svg)](https://github.com/okurenes/banking-payment-system/actions)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)
+![Tests](https://img.shields.io/badge/tests-65-blue)
 
-A production-grade REST API simulating a real banking system — JWT auth, account state machine, deposit/withdraw/transfer with Decimal precision, and a 65-test suite with 97% code coverage. Built iteratively through a 4-role QA review process (Test Engineer → Senior QA → QA Lead → QA Manager).
+> A REST API that simulates a real banking backend — built to be tested, not just to work.
 
-`FastAPI` `SQLAlchemy` `Pytest` `JWT` `CI/CD` `BVA` `State Machine`
+- JWT auth, account state machine (`active ⇄ frozen → closed`), Decimal-precise transactions
+- **65 tests · 97% coverage** — BVA, Equivalence Partitioning, State Transition
+- 4-role QA review process: Test Engineer → Senior QA → QA Lead → QA Manager
 
 ---
 
 ### 🧪 [QA Comprehensive Test Suite](https://github.com/okurenes/qa-comprehensive-test-suite)
-![CI](https://github.com/okurenes/qa-comprehensive-test-suite/actions/workflows/test.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
-Multi-layer QA framework covering UI (Selenium + POM), API (mocked with `responses`), database, and performance testing. Runs fully isolated on every push — no external dependencies, no flaky tests.
+[![CI](https://github.com/okurenes/qa-comprehensive-test-suite/actions/workflows/test.yml/badge.svg)](https://github.com/okurenes/qa-comprehensive-test-suite/actions)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
 
-`Selenium` `Pytest` `Page Object Model` `API Mocking` `Locust` `GitHub Actions`
+> Multi-layer test framework — UI, API, DB, and performance in one pipeline.
+
+- UI tests with Selenium + Page Object Model
+- API tests fully mocked with `responses` — zero external dependencies, zero flakiness
+- Performance layer with Locust, DB layer with conceptual test patterns
+- Runs clean on every push via GitHub Actions
 
 ---
 
 ### 📱 [Mobile Web Automation Framework](https://github.com/okurenes/automation-test-framework)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue?logo=typescript)
-![Playwright](https://img.shields.io/badge/Playwright-1.48-green?logo=playwright)
 
-Senior-level Playwright framework with multi-device support (iPhone, Pixel, iPad), Allure reporting, accessibility (axe-core), performance (Core Web Vitals), and security testing. 585 tests across 3 device profiles.
+[![CI](https://github.com/okurenes/automation-test-framework/actions/workflows/test-on-push.yml/badge.svg)](https://github.com/okurenes/automation-test-framework/actions)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-585-blue)
 
-`Playwright` `TypeScript` `Allure` `Accessibility` `Performance` `Docker`
+> Senior-level Playwright framework designed for real mobile web testing.
+
+- **3 device profiles**: iPhone 14 · Pixel 7 · iPad Pro — parallel CI execution
+- Accessibility (axe-core / WCAG 2.0), Core Web Vitals, XSS/SQLi security checks
+- Allure reporting, Docker support, multi-environment config
 
 ---
 
 ### 🛒 [E-Commerce Test Automation](https://github.com/okurenes/ecommerce-test-automation)
-![CI](https://github.com/okurenes/ecommerce-test-automation/actions/workflows/ci.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
-End-to-end Selenium test suite for an e-commerce platform (SauceDemo) using Page Object Model. Covers login, product browsing, cart, and checkout flows.
+[![CI](https://github.com/okurenes/ecommerce-test-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/okurenes/ecommerce-test-automation/actions)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
 
-`Selenium` `Pytest` `Page Object Model` `CI/CD`
+> End-to-end UI test suite for a full e-commerce flow.
 
----
-
-## 🛠️ Tech Stack
-
-| Area | Tools |
-|---|---|
-| **Languages** | Python, TypeScript, SQL |
-| **Test Frameworks** | Pytest, Playwright, Selenium |
-| **API Testing** | FastAPI, Requests, Postman |
-| **CI/CD** | GitHub Actions, Docker |
-| **Reporting** | Allure, pytest-html |
-| **QA Techniques** | BVA, Equivalence Partitioning, State Transition, POM |
-| **Databases** | SQLite, PostgreSQL, MySQL |
+- Page Object Model architecture — login, product, cart, checkout
+- Headless CI execution with Selenium Manager (no flaky driver setup)
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Stack
 
-![Enes's GitHub Stats](https://github-readme-stats.vercel.app/api?username=okurenes&show_icons=true&theme=default&hide_border=true)
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+</div>
 
 ---
 
-📌 Ankara, Turkey &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/enes-okur-133871136)
+## 📊 Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=okurenes&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=okurenes&layout=compact&theme=github_dark&hide_border=true" />
+
+</div>
