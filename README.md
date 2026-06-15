@@ -1,66 +1,73 @@
-# Enes Okur
+# Hi, I'm Enes Okur 👋
 
-Automation-focused Software Engineer with strong experience in **e-commerce operations, Python-based process automation, and QA-aware system design**.
+**QA Engineer & Test Automation Specialist** based in Ankara, Turkey.
 
-I specialize in transforming manual, error-prone operational workflows into **scalable, validated, and sustainable automation pipelines**. My background combines hands-on automation development with **process analysis, data validation, and software testing discipline**, enabling me to build systems that are not only fast, but reliable and maintainable.
-
----
-
-## Core Focus Areas
-
-* **E-commerce Process Automation**
-  Automating product listing, variation management, media workflows, and operational controls at scale.
-
-* **Python Automation & Scripting**
-  Batch processing, file & data pipelines, validation layers, and fault-tolerant scripts.
-
-* **Data Validation & Quality Controls**
-  Detecting inconsistent, missing, or malformed data using Python and SQL-based verification mechanisms.
-
-* **QA-Oriented Development**
-  Applying test design techniques (boundary value analysis, equivalence partitioning, regression logic) directly into automation systems.
-
-* **Operational Scalability**
-  Designing systems capable of processing tens of thousands of records daily with predictable behavior.
+I build reliable, maintainable test automation frameworks and API-driven systems. My work focuses on turning manual, error-prone processes into scalable automation pipelines — with real validation, real CI/CD, and real coverage metrics.
 
 ---
 
-## Selected Projects (Representative)
+## 🚀 Featured Projects
 
-> Repositories below are designed to demonstrate **real operational problems**, not toy examples.
+### 🏦 [Banking Payment System API](https://github.com/okurenes/banking-payment-system)
+![CI](https://github.com/okurenes/banking-payment-system/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green?logo=fastapi)
+![Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen)
 
-* **E-commerce Automation Pipeline**
-  Python-based system for product data ingestion, image validation, variation control, and batch publishing workflows.
+A production-grade REST API simulating a real banking system — JWT auth, account state machine, deposit/withdraw/transfer with Decimal precision, and a 65-test suite with 97% code coverage. Built iteratively through a 4-role QA review process (Test Engineer → Senior QA → QA Lead → QA Manager).
 
-* **Data Validation & Consistency Checker**
-  SQL + Python utilities to detect data integrity issues, missing fields, and logical inconsistencies in operational datasets.
-
-* **QA-Aware Automation Utilities**
-  Automation scripts written with explicit validation rules, fail-fast logic, and test-oriented structure.
-
----
-
-## Technical Stack
-
-* **Languages:** Python, SQL (MySQL, MSSQL, PostgreSQL)
-* **Automation:** Batch processing, pipeline design, validation layers
-* **Testing & QA:** SDLC / STLC, Functional & Regression Testing, Test Design Techniques
-* **Tools:** Jira, TestRail, Zephyr
-* **Domains:** E-commerce operations, automation systems, data quality
+`FastAPI` `SQLAlchemy` `Pytest` `JWT` `CI/CD` `BVA` `State Machine`
 
 ---
 
-## Professional Approach
+### 🧪 [QA Comprehensive Test Suite](https://github.com/okurenes/qa-comprehensive-test-suite)
+![CI](https://github.com/okurenes/qa-comprehensive-test-suite/actions/workflows/test.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
-I value **clarity, validation, and sustainability** over short-term speed.
+Multi-layer QA framework covering UI (Selenium + POM), API (mocked with `responses`), database, and performance testing. Runs fully isolated on every push — no external dependencies, no flaky tests.
 
-Automation is not just about writing scripts — it is about designing systems that:
-
-* detect errors early,
-* reduce operational risk,
-* and remain understandable months later.
+`Selenium` `Pytest` `Page Object Model` `API Mocking` `Locust` `GitHub Actions`
 
 ---
 
-📌 Ankara, Turkey
-🔗 LinkedIn: [https://www.linkedin.com/in/enes-okur-133871136](https://www.linkedin.com/in/enes-okur-133871136)
+### 📱 [Mobile Web Automation Framework](https://github.com/okurenes/automation-test-framework)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue?logo=typescript)
+![Playwright](https://img.shields.io/badge/Playwright-1.48-green?logo=playwright)
+
+Senior-level Playwright framework with multi-device support (iPhone, Pixel, iPad), Allure reporting, accessibility (axe-core), performance (Core Web Vitals), and security testing. 585 tests across 3 device profiles.
+
+`Playwright` `TypeScript` `Allure` `Accessibility` `Performance` `Docker`
+
+---
+
+### 🛒 [E-Commerce Test Automation](https://github.com/okurenes/ecommerce-test-automation)
+![CI](https://github.com/okurenes/ecommerce-test-automation/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+
+End-to-end Selenium test suite for an e-commerce platform (SauceDemo) using Page Object Model. Covers login, product browsing, cart, and checkout flows.
+
+`Selenium` `Pytest` `Page Object Model` `CI/CD`
+
+---
+
+## 🛠️ Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Languages** | Python, TypeScript, SQL |
+| **Test Frameworks** | Pytest, Playwright, Selenium |
+| **API Testing** | FastAPI, Requests, Postman |
+| **CI/CD** | GitHub Actions, Docker |
+| **Reporting** | Allure, pytest-html |
+| **QA Techniques** | BVA, Equivalence Partitioning, State Transition, POM |
+| **Databases** | SQLite, PostgreSQL, MySQL |
+
+---
+
+## 📊 GitHub Stats
+
+![Enes's GitHub Stats](https://github-readme-stats.vercel.app/api?username=okurenes&show_icons=true&theme=default&hide_border=true)
+
+---
+
+📌 Ankara, Turkey &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/enes-okur-133871136)
